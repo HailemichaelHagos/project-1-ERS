@@ -1,0 +1,46 @@
+
+<div class="container">
+<h3 style="color: brown;"> ALL RESOLVED REQUEST</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+          <th>reimId</th>
+            <th>ReqEmpId</th>
+            <th>Amount</th>
+             <th>Approved/Deny</th> 
+            <th>Date of Request</th>
+            <!-- <th>Date of Resolved</th> -->
+            <!-- <th>empID</th>
+            <th>mngID</th>
+            <th>Action</th> -->
+            <!-- <th>Edit</th>
+            <th>Delete</th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let solved of allSolved">
+          <td>{{ solved.reimbursementId }}</td>
+            <td>{{ solved.requestingEmployeeId }}</td>
+            <td>{{ solved.reimbursementAmount }}</td>
+             <td>{{ solved.requestApproved }}</td> 
+            <!-- <td>{{ solved.dateOfRequest }}</td> -->
+             <td>{{ solved.dateResolved }}</td> 
+            <!-- <td>{{ expense.empId }}</td>
+            <td>{{ expense.mngId}}</td>
+            <td>{{ expense.action}}</td> -->
+            <!-- <td>
+                <button 
+                    type="button" 
+                    class="btn btn-primary"
+                    (click)="goToEditExpense(expense.reimbursementId)">
+                    <i class="material-icons">edit</i>
+                </button>
+            </td>
+             <td><button 
+                    type="button" 
+                    class="btn btn-danger" 
+                    (click)="deleteExpense(expense.reimbursementId)"><i class="material-icons">delete</i></button></td>  -->
+        </tr>
+    </tbody>
+</table>
+</div>

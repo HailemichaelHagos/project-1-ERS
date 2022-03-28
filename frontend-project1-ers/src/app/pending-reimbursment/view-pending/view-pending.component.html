@@ -1,0 +1,43 @@
+<div class="container">
+<h3 style="color: brown;"> ALL PENDING REQUEST</h3>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+          <th>reimId</th>
+            <th>ReqEmpId</th>
+            <th>Amount</th>
+            <th>Date of Request</th>
+            <!-- <th>Date of Resolved</th> -->
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pending of allPendings">
+          <td>{{ pending.reimbursementId }}</td>
+            <td>{{ pending.requestingEmployeeId }}</td>
+            <td>{{ pending.reimbursementAmount }}</td>
+            <!-- <td>{{ expense.requestApproved }}</td> -->
+            <td>{{ pending.dateOfRequest }}</td>
+            <!-- <td>{{ expense.dateResolved }}</td> -->
+            <!-- <td>{{ expense.empId }}</td>
+            <td>{{ expense.mngId}}</td>
+            <td>{{ expense.action}}</td> -->
+            <!-- <td>
+                <button 
+                    type="button" 
+                    class="btn btn-primary"
+                    (click)="goToEditExpense(expense.reimbursementId)">
+                    <i class="material-icons">edit</i>
+                </button>
+            </td>
+             <td><button 
+                    type="button" 
+                    class="btn btn-danger" 
+                    (click)="deleteExpense(expense.reimbursementId)"><i class="material-icons">delete</i></button></td>  -->
+        </tr>
+    </tbody>
+</table>
+</div>
+
