@@ -20,7 +20,6 @@ log4j2 to log program information and errors
 Javalin to create endpoints for front end to access
 Angular to deliver as a UI
 
-     Requirements:
 ========Manager Role===========:
 
 log in
