@@ -4,7 +4,7 @@ By: Hailemichae Hagos And Samia Johan
 Date: 03/12/2022
 
 # Expense Reimbursement System
-Details:
+###vDetails:
 Frontend delivered reimbursement managements application consisting of:
 login / logout
 Manager specific endpoints
@@ -12,7 +12,7 @@ Employees specific endpoints
 Managers can approve / deny reimbursement requests
 Employees can submit reimbursement requests
 
-### Technologies
+### Technologies:
 Java
 PostgreSQL for the database
 JDBC to access the database from Java
@@ -20,7 +20,7 @@ log4j2 to log program information and errors
 Javalin to create endpoints for front end to access
 Angular to deliver as a UI
 
-##### Manager Role
+##### Manager Role:
 
 log in
 log out
@@ -29,7 +29,7 @@ approve / deny requests
 view all requests, pending and resolved
 view all employees in company
 
-##### Employee Role
+##### Employee Role:
 log in
 log out
 submit new reimbursement requests
