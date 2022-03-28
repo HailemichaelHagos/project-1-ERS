@@ -4,7 +4,7 @@ By: Hailemichae Hagos And Samia Johan
 Date: 03/12/2022
 
 # Expense Reimbursement System
-###vDetails:
+### Details:
 Frontend delivered reimbursement managements application consisting of:
 login / logout
 Manager specific endpoints
