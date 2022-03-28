@@ -3,7 +3,7 @@
 By: Hailemichae Hagos And Samia Johan
 Date: 03/12/2022
 
-===================Project1-ERS =============
+## ===================Project1-ERS =============
 Angular Expense Reimbursement System
 Details:
 Frontend delivered reimbursement managements application consisting of:
@@ -13,7 +13,7 @@ Employees specific endpoints
 Managers can approve / deny reimbursement requests
 Employees can submit reimbursement requests
 
-===========Technologies===========
+####===========Technologies===========
 Java
 PostgreSQL for the database
 JDBC to access the database from Java
