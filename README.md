@@ -5,7 +5,7 @@ Date: 03/12/2022
 
 # Expense Reimbursement System
 ### Details:
-Frontend delivered reimbursement managements application consisting of:
+#######Frontend delivered reimbursement managements application consisting of:
 login / logout
 Manager specific endpoints
 Employees specific endpoints
