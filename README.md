@@ -13,12 +13,12 @@
 ###### Employees can submit reimbursement requests
 
 ### Technologies:
-###### Java
-###### PostgreSQL for the database
-###### JDBC to access the database from Java
-###### log4j2 to log program information and errors
-###### Javalin to create endpoints for front end to access
-###### Angular to deliver as a UI
+###### 1. Java
+###### 2. PostgreSQL for the database
+###### 3. JDBC to access the database from Java
+###### 4. log4j2 to log program information and errors
+###### 5. Javalin to create endpoints for front end to access
+###### 6. Angular to deliver as a UI
 
 ##### Manager Role:
 
